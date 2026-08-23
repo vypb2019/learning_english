@@ -74,7 +74,7 @@ Ngày 53: Rút gọn mệnh đề quan hệ
 Ngày 54: Câu tường thuật - Câu kể
 Ngày 55: Câu tường thuật - Câu hỏi
 Ngày 56: Câu tường thuật - Câu mệnh lệnh và yêu cầu
-Ngày 57: Câu tường thuật - Các thay đổi về thì, đại từ và trạng từ chỉ thời gianNgày 58. Mệnh đề mục đích
+Ngày 57: Câu tường thuật - Các thay đổi về thì, đại từ và trạng từ chỉ thời gian
 58. Câu điều kiện loại 0
 
 59. Câu điều kiện loại 1
