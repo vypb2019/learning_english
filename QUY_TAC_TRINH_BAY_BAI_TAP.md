@@ -63,10 +63,23 @@ Không đặt đáp án, gợi ý làm bài hoặc thông tin làm lộ đáp á
 - Email/thư: lời chào, nội dung chính và lời kết phải tách thành các đoạn hợp lý.
 - Thông báo/tờ rơi: tiêu đề, thông tin chính, thời gian, địa điểm và lời kêu gọi nên tách dòng theo chức năng.
 
+#### 4.1.1. Khoảng cách đoạn bắt buộc
+
+- Không chỉ dùng ký tự xuống dòng để tạo khoảng cách. Phải thiết lập khoảng cách đoạn bằng thuộc tính `Space Before` và `Space After` của đoạn văn.
+- Tiêu đề chính: cách đoạn sau từ `12 pt` đến `18 pt`.
+- Tiêu đề phần: cách đoạn trước từ `12 pt` đến `16 pt`, cách đoạn sau từ `3 pt` đến `5 pt`.
+- Câu hướng dẫn dưới tiêu đề phần: cách đoạn sau từ `3 pt` đến `5 pt`.
+- Câu hỏi đầu tiên của phần không được cộng thêm khoảng cách lớn ở phía trước; tổng khoảng cách thị giác từ hướng dẫn đến câu đầu tiên chỉ nên từ `4 pt` đến `6 pt`.
+- Không để tổ hợp khoảng cách của tiêu đề phần, hướng dẫn và câu hỏi đầu tiên tạo thành một vùng trắng lớn hoặc làm phần câu hỏi bị đẩy sang trang sau.
+- Đoạn văn thông thường: cách đoạn sau tối thiểu `6 pt`; các đoạn dài hoặc chuyển ý nên dùng từ `8 pt` đến `10 pt`.
+- Không đặt tiêu đề phần sát câu cuối của phần trước. Giữa hai phần phải có khoảng trắng thị giác rõ ràng, tương đương ít nhất `16 pt`.
+- Không dùng nhiều dòng trống liên tiếp để thay cho khoảng cách đoạn vì dễ gây sai lệch khi mở trên thiết bị hoặc phần mềm khác.
+
 ### 4.2. Câu hỏi và lựa chọn
 
 - Mỗi câu hỏi bắt đầu ở một dòng mới.
 - Không để hai câu hỏi trên cùng một dòng.
+- Nội dung câu hỏi dùng kiểu chữ thường, không in đậm toàn bộ câu. Chỉ in đậm từ khóa hoặc cụm từ cần nhấn mạnh khi dạng bài thực sự yêu cầu.
 - Với câu trắc nghiệm, mỗi lựa chọn `A.`, `B.`, `C.`, `D.` phải nằm trên một dòng riêng.
 - Không ghép bốn lựa chọn thành một dòng, kể cả khi lựa chọn ngắn.
 - Giữ khoảng cách nhỏ giữa câu hỏi và các lựa chọn; tạo khoảng cách lớn hơn trước câu hỏi tiếp theo.
@@ -84,6 +97,15 @@ C. walked
 D. walking
 ```
 
+Khoảng cách khuyến nghị cho câu trắc nghiệm:
+
+- Câu hỏi thông thường: cách đoạn trước từ `5 pt` đến `7 pt`, cách lựa chọn đầu tiên từ `2 pt` đến `4 pt`.
+- Câu hỏi đầu tiên ngay sau hướng dẫn: cách đoạn trước tối đa `4 pt`.
+- Giữa các lựa chọn A/B/C/D: cách đoạn sau từ `2 pt` đến `4 pt`.
+- Sau lựa chọn cuối cùng: cách câu hỏi tiếp theo từ `10 pt` đến `12 pt`.
+- Không để lựa chọn cuối của câu trước dính sát vào câu hỏi tiếp theo.
+- Với câu tự luận, dịch, sửa lỗi hoặc sắp xếp từ, mỗi câu cách câu tiếp theo tối thiểu `8 pt`.
+
 ### 4.3. Câu sắp xếp và ghép nối
 
 - Mỗi mệnh đề hoặc lượt lời `a.`, `b.`, `c.`, `d.` nằm trên một dòng riêng.
@@ -94,7 +116,16 @@ D. walking
 
 - Dùng một kiểu phông chữ dễ đọc trong toàn tài liệu.
 - Cỡ chữ nội dung phải đủ lớn; tiêu đề có cấp độ rõ ràng.
-- Dùng in đậm, màu và nền tiêu đề có tiết chế, nhất quán giữa các đề.
+- Màu chữ mặc định của toàn bộ tài liệu phải là màu đen (`#000000`) hoặc `Automatic` hiển thị thành màu đen trên nền trắng.
+- Phải đặt lại màu chữ trực tiếp cho toàn bộ nội dung sau khi sao chép, chuyển đổi hoặc áp dụng mẫu; không được chỉ dựa vào màu kế thừa từ `Style`, `Theme`, hyperlink hoặc tài liệu nguồn.
+- Câu hỏi, lựa chọn, đoạn đọc, hội thoại, hướng dẫn, đáp án và lời giải bắt buộc dùng chữ màu đen; không dùng màu xanh đồng loạt cho nội dung.
+- Tiêu đề ưu tiên dùng chữ đen và in đậm. Chỉ dùng màu chữ khác khi mẫu tài liệu riêng yêu cầu rõ ràng; màu đó chỉ được áp dụng đúng phạm vi tiêu đề, không lan sang các đoạn bên dưới.
+- Khi đặt chữ về màu đen, phải xóa đồng thời các thuộc tính màu theme như `accent`, `hyperlink` và `followed hyperlink` nếu chúng đang được kế thừa ngoài ý muốn.
+- Không tô màu nền (`shading`) hoặc bôi màu (`text highlight`) cho phần nội dung, câu hỏi, lựa chọn, đoạn đọc, hội thoại, đáp án và lời giải.
+- Mặc định mọi đoạn nội dung phải có nền trắng hoặc `No Color`, đồng thời thuộc tính `Text Highlight Color` phải là `No Color`.
+- Tiêu đề cũng ưu tiên không dùng màu nền. Chỉ được dùng nền cho tiêu đề khi mẫu tài liệu riêng yêu cầu rõ ràng; màu phải rất nhạt, thống nhất và không kéo dài sang các đoạn nội dung bên dưới.
+- Khi sao chép nội dung từ tài liệu hoặc nguồn khác, phải xóa định dạng nền và highlight kế thừa trước khi áp dụng kiểu chữ của tài liệu.
+- Không dùng màu nền để tạo khoảng cách hoặc phân chia phần; phải dùng khoảng cách đoạn, tiêu đề và ngắt trang.
 - Không lạm dụng viết hoa, gạch chân hoặc nhiều màu trong cùng một đoạn.
 - Dấu câu phải đặt đúng vị trí; có một khoảng trắng sau dấu phẩy, dấu chấm, dấu chấm phẩy và dấu hai chấm.
 - Không có lỗi “Ngắt cầu”; phải kiểm tra và sửa thành “ngắt câu”, xuống dòng đúng ngữ nghĩa.
@@ -234,6 +265,10 @@ Suy luận: Chi tiết này cho thấy ...
 ```
 
 - Không ghép nhiều đáp án của nhiều câu vào cùng một đoạn văn.
+- Dòng đáp án cách đoạn trước từ `10 pt` đến `12 pt` và cách dòng `Giải thích:` từ `3 pt` đến `6 pt`.
+- Sau khối giải thích của một câu phải có khoảng cách từ `10 pt` đến `12 pt` trước đáp án của câu tiếp theo.
+- Các nhãn `Bằng chứng:`, `Suy luận:`, `Kết luận:`, `Dịch nghĩa:` và các dòng phân tích phương án nhiễu phải cách nhau tối thiểu `4 pt`, không được dính thành một khối chữ đặc.
+- Toàn bộ phần đáp án và giải thích phải dùng nền trắng hoặc `No Color`; không dùng highlight để đánh dấu đáp án đúng.
 - Không để một khối giải thích quá dài mà không có điểm ngắt. Khi lời giải vượt khoảng 3–4 câu văn, phải tách theo bằng chứng, quy tắc, suy luận hoặc loại trừ.
 - Bản dịch, lưu ý ngữ pháp và cụm từ cần nhớ phải đặt ở dòng riêng nếu được bổ sung.
 - Các nhãn `Giải thích:`, `Bằng chứng:`, `Suy luận:`, `Dịch nghĩa:` và `Lưu ý:` phải được dùng nhất quán trong cùng một tài liệu.
@@ -274,11 +309,20 @@ Suy luận: Chi tiết này cho thấy ...
 - [ ] Mỗi lựa chọn A/B/C/D ở một dòng riêng.
 - [ ] Đoạn đọc, hội thoại, email và thông báo đã xuống dòng theo ý nghĩa.
 - [ ] Khoảng cách đoạn nhất quán, không có khối chữ quá dày.
+- [ ] Tiêu đề phần có khoảng cách trước/sau rõ ràng và không dính vào phần trước hoặc câu hỏi đầu tiên.
+- [ ] Câu hỏi, các lựa chọn và câu hỏi kế tiếp có khoảng cách đúng theo Mục 4.2; không có hai khối câu dính sát nhau.
+- [ ] Tiêu đề phần, hướng dẫn và câu hỏi đầu tiên nằm thành một cụm gọn; không có vùng trắng quá lớn làm kéo dài số trang.
+- [ ] Câu hỏi không bị in đậm toàn bộ; chỉ từ khóa cần thiết mới được nhấn mạnh.
 - [ ] Đáp án bắt đầu ở cuối tài liệu, ưu tiên sang trang mới với đề dài.
 - [ ] Mỗi đáp án và phần `Giải thích:` được tách thành các dòng/đoạn riêng.
 - [ ] Lời giải dài đã được chia theo bằng chứng, suy luận và loại trừ; không còn khối chữ dày khó đọc.
 - [ ] Mỗi phương án nhiễu cần phân tích được đặt trên một dòng riêng.
 - [ ] Khoảng cách giữa các khối lời giải nhất quán.
+- [ ] Mỗi khối đáp án–giải thích có khoảng cách tối thiểu theo Mục 6.8 và dễ phân biệt bằng mắt.
+- [ ] Không còn màu nền hoặc highlight trong nội dung, câu hỏi, lựa chọn, đoạn đọc, đáp án và lời giải.
+- [ ] Thuộc tính nền của nội dung là trắng/`No Color`; `Text Highlight Color` là `No Color`.
+- [ ] Toàn bộ chữ nội dung hiển thị màu đen; không còn màu xanh hoặc màu theme kế thừa ngoài ý muốn.
+- [ ] Đã kiểm tra màu chữ ở cả cấp ký tự, đoạn, `Style` và `Theme`; câu hỏi, lựa chọn, đáp án và lời giải đều là `#000000` hoặc `Automatic` màu đen.
 - [ ] Không có ký tự lỗi, dòng trống thừa hoặc tiêu đề nằm sai vị trí.
 - [ ] Tệp mở được bình thường và không hỏng định dạng.
 
