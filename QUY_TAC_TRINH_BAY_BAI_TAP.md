@@ -9,6 +9,12 @@ Quy tắc này bắt buộc áp dụng cho:
 - Bộ đề ôn thi tốt nghiệp THPT và xét tuyển đại học.
 - Mọi lần bổ sung, sửa chữa hoặc định dạng lại một bài tập đã có.
 
+Quy ước riêng về lời giải:
+
+- Chỉ các tài liệu nằm trong thư mục `exercises\Bộ đề ôn thi tốt nghiệp THPT và xét tuyển đại học` mới bắt buộc có giải thích chi tiết cho từng câu.
+- Mọi bài tập hoặc đề nằm ngoài thư mục trên không bắt buộc có giải thích; mặc định phần đáp án chỉ ghi đáp án đúng hoặc câu trả lời mẫu.
+- Căn cứ phân loại là đường dẫn thực tế của tệp, không phải tên đề, độ khó hoặc tiêu đề bên trong tài liệu.
+
 Khi một đề cũ được chỉnh sửa, phải kiểm tra lại toàn bộ đề và phần đáp án theo quy tắc này, không chỉ kiểm tra riêng đoạn vừa sửa.
 
 ## 2. Nguyên tắc chung
@@ -46,7 +52,8 @@ Không đặt đáp án, gợi ý làm bài hoặc thông tin làm lộ đáp á
 
 - Luôn đặt ở cuối cùng của tài liệu, sau toàn bộ câu hỏi và phần tự đánh giá nếu có.
 - Với đề dài, bắt đầu phần đáp án ở một trang mới.
-- Có tiêu đề rõ ràng: `ĐÁP ÁN`.
+- Với tài liệu ngoài thư mục `exercises\Bộ đề ôn thi tốt nghiệp THPT và xét tuyển đại học`, dùng tiêu đề `ĐÁP ÁN`.
+- Với tài liệu trong thư mục `exercises\Bộ đề ôn thi tốt nghiệp THPT và xét tuyển đại học`, dùng tiêu đề `ĐÁP ÁN VÀ GIẢI THÍCH CHI TIẾT`.
 - Chia đáp án theo phần hoặc nhóm kỹ năng tương ứng với đề.
 - Không đặt thêm nội dung luyện tập, ghi chú hay câu hỏi mới sau phần đáp án.
 
@@ -68,9 +75,12 @@ Không đặt đáp án, gợi ý làm bài hoặc thông tin làm lộ đáp á
 - Không chỉ dùng ký tự xuống dòng để tạo khoảng cách. Phải thiết lập khoảng cách đoạn bằng thuộc tính `Space Before` và `Space After` của đoạn văn.
 - Tiêu đề chính: cách đoạn sau từ `12 pt` đến `18 pt`.
 - Tiêu đề phần: cách đoạn trước từ `12 pt` đến `16 pt`, cách đoạn sau từ `3 pt` đến `5 pt`.
+- Riêng `PHẦN 1` ngay sau phần thông tin đầu đề/hướng dẫn chung: khoảng cách trước chỉ từ `2 pt` đến `4 pt`; không áp dụng mức `12–16 pt` của các phần tiếp theo.
 - Câu hướng dẫn dưới tiêu đề phần: cách đoạn sau từ `3 pt` đến `5 pt`.
 - Câu hỏi đầu tiên của phần không được cộng thêm khoảng cách lớn ở phía trước; tổng khoảng cách thị giác từ hướng dẫn đến câu đầu tiên chỉ nên từ `4 pt` đến `6 pt`.
 - Không để tổ hợp khoảng cách của tiêu đề phần, hướng dẫn và câu hỏi đầu tiên tạo thành một vùng trắng lớn hoặc làm phần câu hỏi bị đẩy sang trang sau.
+- Các dòng họ tên, phạm vi kiến thức, thời gian và hướng dẫn chung ở phần đầu chỉ cách nhau từ `2 pt` đến `4 pt`. Sau hướng dẫn chung không được có đoạn trống trước `PHẦN 1`.
+- Không chèn ngắt trang, ngắt vùng (`section break`) hoặc nhiều dấu xuống dòng giữa phần đầu đề và `PHẦN 1`.
 - Đoạn văn thông thường: cách đoạn sau tối thiểu `6 pt`; các đoạn dài hoặc chuyển ý nên dùng từ `8 pt` đến `10 pt`.
 - Không đặt tiêu đề phần sát câu cuối của phần trước. Giữa hai phần phải có khoảng trắng thị giác rõ ràng, tương đương ít nhất `16 pt`.
 - Không dùng nhiều dòng trống liên tiếp để thay cho khoảng cách đoạn vì dễ gây sai lệch khi mở trên thiết bị hoặc phần mềm khác.
@@ -181,6 +191,15 @@ Khoảng cách khuyến nghị cho câu trắc nghiệm:
 
 ## 6. Chuẩn bắt buộc cho phần đáp án
 
+### 6.0. Phân loại theo đường dẫn
+
+Trước khi tạo hoặc sửa phần đáp án, phải xác định tệp thuộc một trong hai nhóm:
+
+1. **Nhóm đáp án ngắn:** mọi tệp nằm ngoài `exercises\Bộ đề ôn thi tốt nghiệp THPT và xét tuyển đại học`.
+2. **Nhóm đáp án có giải thích:** mọi tệp nằm trong `exercises\Bộ đề ôn thi tốt nghiệp THPT và xét tuyển đại học`, kể cả các thư mục con của thư mục này.
+
+Không được áp dụng yêu cầu giải thích chi tiết của nhóm 2 cho nhóm 1 chỉ vì đề dài hoặc khó.
+
 ### 6.1. Nội dung tối thiểu
 
 Mỗi câu phải có:
@@ -188,7 +207,9 @@ Mỗi câu phải có:
 1. Số câu.
 2. Đáp án đúng hoặc câu trả lời mẫu.
 
-Phần đáp án chỉ ghi đáp án/câu trả lời mẫu; không ghi `Giải thích:`, bằng chứng, suy luận, bản dịch, phân tích phương án nhiễu hoặc lời giải bổ sung.
+Với nhóm đáp án ngắn, phần đáp án chỉ cần ghi đáp án/câu trả lời mẫu. Mặc định không ghi `Giải thích:`, bằng chứng, suy luận, bản dịch, phân tích phương án nhiễu hoặc lời giải bổ sung.
+
+Với nhóm đáp án có giải thích, ngoài số câu và đáp án đúng, mỗi câu phải có dòng `Giải thích:` riêng theo Mục 6.4.
 
 Với câu trả lời mở, phải có bài viết mẫu hoàn chỉnh và có thể ghi thêm tiêu chí chấm hoặc nguyên tắc chấp nhận phương án khác nếu đề yêu cầu.
 
@@ -202,7 +223,7 @@ Với câu trả lời mở, phải có bài viết mẫu hoàn chỉnh và có 
 
 ### 6.3. Trình bày phần đáp án
 
-- Tiêu đề phần đáp án là `ĐÁP ÁN` và nằm ở cuối tài liệu; với đề dài, bắt đầu ở trang mới.
+- Tiêu đề phần đáp án nằm ở cuối tài liệu; dùng `ĐÁP ÁN` cho nhóm đáp án ngắn và `ĐÁP ÁN VÀ GIẢI THÍCH CHI TIẾT` cho nhóm đáp án có giải thích. Với đề dài, bắt đầu ở trang mới.
 - Tiêu đề nhóm đáp án phải tương ứng với phần câu hỏi và nằm trên một dòng riêng, ví dụ: `PHẦN 3` hoặc `NHÓM 3. ĐỌC HIỂU`.
 - Mỗi câu trả lời bắt đầu ở một đoạn mới và chỉ ghi số câu cùng đáp án/câu trả lời mẫu.
 - Không ghép nhiều đáp án của nhiều câu vào cùng một đoạn văn.
@@ -210,6 +231,18 @@ Với câu trả lời mở, phải có bài viết mẫu hoàn chỉnh và có 
 - Các bài mẫu, tiêu chí chấm và ghi chú chấp nhận phương án khác phải nằm ở các đoạn riêng sau nhãn tương ứng.
 - Toàn bộ phần đáp án dùng nền trắng hoặc `No Color`, không dùng highlight để đánh dấu đáp án đúng.
 - Không để tiêu đề nhóm ở cuối trang trong khi dòng đáp án đầu tiên bị chuyển hoàn toàn sang trang sau nếu có thể tránh được.
+
+### 6.4. Yêu cầu riêng cho bộ đề ôn thi tốt nghiệp THPT và xét tuyển đại học
+
+Mục này chỉ áp dụng cho tài liệu trong `exercises\Bộ đề ôn thi tốt nghiệp THPT và xét tuyển đại học`:
+
+- Mỗi câu trình bày thành một khối gồm dòng `Câu ...: Đáp án ...` và một dòng riêng bắt đầu bằng `Giải thích:`.
+- Câu dễ vẫn phải nêu quy tắc, từ khóa hoặc bằng chứng trực tiếp; không dùng lời giải chung chung như “đúng ngữ pháp” hoặc “phù hợp nhất”.
+- Câu đọc hiểu phải chỉ rõ vị trí bằng chứng trong đoạn; câu suy luận phải tách được bằng chứng, suy luận và kết luận.
+- Câu khó hoặc có phương án gần nghĩa phải phân tích phương án nhiễu khi cần; mỗi phương án phân tích nằm trên một dòng riêng.
+- Câu sắp xếp phải giải thích mạch liên kết; câu phát âm/trọng âm phải chỉ rõ âm hoặc vị trí trọng âm khác biệt.
+- Đáp án và dòng `Giải thích:` không được ghép vào cùng một dòng.
+- Sau mỗi khối đáp án–giải thích dùng khoảng cách đoạn nhất quán từ `10 pt` đến `12 pt`.
 
 ## 7. Mức độ và tính phù hợp
 
@@ -249,11 +282,14 @@ Với câu trả lời mở, phải có bài viết mẫu hoàn chỉnh và có 
 - [ ] Tiêu đề phần có khoảng cách trước/sau rõ ràng và không dính vào phần trước hoặc câu hỏi đầu tiên.
 - [ ] Câu hỏi, các lựa chọn và câu hỏi kế tiếp có khoảng cách đúng theo Mục 4.2; không có hai khối câu dính sát nhau.
 - [ ] Tiêu đề phần, hướng dẫn và câu hỏi đầu tiên nằm thành một cụm gọn; không có vùng trắng quá lớn làm kéo dài số trang.
+- [ ] `PHẦN 1` nằm sát hợp lý với hướng dẫn chung; khoảng cách trước không vượt `4 pt` và không có đoạn trống/ngắt trang ở giữa.
 - [ ] `PHẦN 1` không bị đẩy sang trang sau bởi `Keep with next`, `Page break before` hoặc dấu ngắt trang cũ khi phần giới thiệu vẫn còn đủ chỗ.
 - [ ] `Keep with next` chỉ dùng cho các cụm ngắn; không nối liên tục toàn bộ phần câu hỏi hoặc phần đáp án.
 - [ ] Câu hỏi không bị in đậm toàn bộ; chỉ từ khóa cần thiết mới được nhấn mạnh.
 - [ ] Đáp án bắt đầu ở cuối tài liệu, ưu tiên sang trang mới với đề dài.
-- [ ] Mỗi đáp án bắt đầu ở một dòng/đoạn riêng; không có dòng `Giải thích:` hoặc nội dung giải thích trong phần đáp án.
+- [ ] Đã xác định đúng nhóm đáp án dựa trên đường dẫn tệp theo Mục 6.0.
+- [ ] Với tệp ngoài thư mục bộ đề ôn thi: mỗi đáp án bắt đầu ở một dòng/đoạn riêng; phần đáp án ngắn không bị bổ sung lời giải không cần thiết.
+- [ ] Với tệp trong thư mục bộ đề ôn thi: mỗi câu có đủ dòng đáp án và dòng `Giải thích:` riêng theo Mục 6.4.
 - [ ] Các bài mẫu, tiêu chí chấm và ghi chú chấp nhận phương án khác được tách thành các đoạn riêng khi có yêu cầu.
 - [ ] Khoảng cách giữa các dòng đáp án nhất quán và đủ để phân biệt từng câu.
 - [ ] Không còn màu nền hoặc highlight trong nội dung, câu hỏi, lựa chọn, đoạn đọc và đáp án.
