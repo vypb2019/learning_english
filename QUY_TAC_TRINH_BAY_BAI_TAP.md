@@ -75,6 +75,14 @@ Không đặt đáp án, gợi ý làm bài hoặc thông tin làm lộ đáp á
 - Không đặt tiêu đề phần sát câu cuối của phần trước. Giữa hai phần phải có khoảng trắng thị giác rõ ràng, tương đương ít nhất `16 pt`.
 - Không dùng nhiều dòng trống liên tiếp để thay cho khoảng cách đoạn vì dễ gây sai lệch khi mở trên thiết bị hoặc phần mềm khác.
 
+#### 4.1.2. Giữ đoạn kế tiếp và ngắt trang
+
+- Chỉ dùng thuộc tính `Keep with next` cho một cụm ngắn cần đi cùng nhau: tiêu đề chính với dòng phụ đề, tiêu đề phần với câu hướng dẫn, hoặc câu hỏi với chính các lựa chọn A–D của câu đó.
+- Không áp dụng `Keep with next` liên tục cho toàn bộ các câu, toàn bộ lựa chọn, cả một phần bài hoặc cả phần đáp án. Chuỗi này có thể làm Word đẩy `PHẦN 1` sang trang sau và tạo một vùng trắng lớn giữa phần giới thiệu đề và câu hỏi đầu tiên.
+- Lựa chọn cuối cùng của một câu, thường là `D.`, không đặt `Keep with next`; câu hỏi tiếp theo phải bắt đầu theo khoảng cách đoạn đã quy định, không bị nối thành cùng một chuỗi.
+- Không chèn ngắt trang thủ công, `Page break before` hoặc giữ lại dấu `lastRenderedPageBreak` ngay trước `PHẦN 1` nếu phần giới thiệu và tiêu đề phần vẫn còn đủ chỗ trên cùng trang. `PHẦN 1` phải nằm ngay sau phần hướng dẫn chung với khoảng cách theo Mục 4.1.1.
+- Nếu nội dung thực sự không còn đủ chỗ, chỉ chấp nhận ngắt trang tự nhiên hoặc ngắt trang có chủ đích đã được kiểm tra trực quan; không để ngắt trang do chuỗi `Keep with next` gây ra.
+
 ### 4.2. Câu hỏi và lựa chọn
 
 - Mỗi câu hỏi bắt đầu ở một dòng mới.
@@ -312,6 +320,8 @@ Suy luận: Chi tiết này cho thấy ...
 - [ ] Tiêu đề phần có khoảng cách trước/sau rõ ràng và không dính vào phần trước hoặc câu hỏi đầu tiên.
 - [ ] Câu hỏi, các lựa chọn và câu hỏi kế tiếp có khoảng cách đúng theo Mục 4.2; không có hai khối câu dính sát nhau.
 - [ ] Tiêu đề phần, hướng dẫn và câu hỏi đầu tiên nằm thành một cụm gọn; không có vùng trắng quá lớn làm kéo dài số trang.
+- [ ] `PHẦN 1` không bị đẩy sang trang sau bởi `Keep with next`, `Page break before` hoặc dấu ngắt trang cũ khi phần giới thiệu vẫn còn đủ chỗ.
+- [ ] `Keep with next` chỉ dùng cho các cụm ngắn; không nối liên tục toàn bộ phần câu hỏi hoặc phần đáp án.
 - [ ] Câu hỏi không bị in đậm toàn bộ; chỉ từ khóa cần thiết mới được nhấn mạnh.
 - [ ] Đáp án bắt đầu ở cuối tài liệu, ưu tiên sang trang mới với đề dài.
 - [ ] Mỗi đáp án và phần `Giải thích:` được tách thành các dòng/đoạn riêng.
