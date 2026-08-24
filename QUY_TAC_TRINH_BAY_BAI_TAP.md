@@ -46,7 +46,7 @@ Không đặt đáp án, gợi ý làm bài hoặc thông tin làm lộ đáp á
 
 - Luôn đặt ở cuối cùng của tài liệu, sau toàn bộ câu hỏi và phần tự đánh giá nếu có.
 - Với đề dài, bắt đầu phần đáp án ở một trang mới.
-- Có tiêu đề rõ ràng: `ĐÁP ÁN VÀ GIẢI THÍCH CHI TIẾT`.
+- Có tiêu đề rõ ràng: `ĐÁP ÁN`.
 - Chia đáp án theo phần hoặc nhóm kỹ năng tương ứng với đề.
 - Không đặt thêm nội dung luyện tập, ghi chú hay câu hỏi mới sau phần đáp án.
 
@@ -126,10 +126,10 @@ Khoảng cách khuyến nghị cho câu trắc nghiệm:
 - Cỡ chữ nội dung phải đủ lớn; tiêu đề có cấp độ rõ ràng.
 - Màu chữ mặc định của toàn bộ tài liệu phải là màu đen (`#000000`) hoặc `Automatic` hiển thị thành màu đen trên nền trắng.
 - Phải đặt lại màu chữ trực tiếp cho toàn bộ nội dung sau khi sao chép, chuyển đổi hoặc áp dụng mẫu; không được chỉ dựa vào màu kế thừa từ `Style`, `Theme`, hyperlink hoặc tài liệu nguồn.
-- Câu hỏi, lựa chọn, đoạn đọc, hội thoại, hướng dẫn, đáp án và lời giải bắt buộc dùng chữ màu đen; không dùng màu xanh đồng loạt cho nội dung.
+- Câu hỏi, lựa chọn, đoạn đọc, hội thoại, hướng dẫn và đáp án bắt buộc dùng chữ màu đen; không dùng màu xanh đồng loạt cho nội dung.
 - Tiêu đề ưu tiên dùng chữ đen và in đậm. Chỉ dùng màu chữ khác khi mẫu tài liệu riêng yêu cầu rõ ràng; màu đó chỉ được áp dụng đúng phạm vi tiêu đề, không lan sang các đoạn bên dưới.
 - Khi đặt chữ về màu đen, phải xóa đồng thời các thuộc tính màu theme như `accent`, `hyperlink` và `followed hyperlink` nếu chúng đang được kế thừa ngoài ý muốn.
-- Không tô màu nền (`shading`) hoặc bôi màu (`text highlight`) cho phần nội dung, câu hỏi, lựa chọn, đoạn đọc, hội thoại, đáp án và lời giải.
+- Không tô màu nền (`shading`) hoặc bôi màu (`text highlight`) cho phần nội dung, câu hỏi, lựa chọn, đoạn đọc, hội thoại và đáp án.
 - Mặc định mọi đoạn nội dung phải có nền trắng hoặc `No Color`, đồng thời thuộc tính `Text Highlight Color` phải là `No Color`.
 - Tiêu đề cũng ưu tiên không dùng màu nền. Chỉ được dùng nền cho tiêu đề khi mẫu tài liệu riêng yêu cầu rõ ràng; màu phải rất nhạt, thống nhất và không kéo dài sang các đoạn nội dung bên dưới.
 - Khi sao chép nội dung từ tài liệu hoặc nguồn khác, phải xóa định dạng nền và highlight kế thừa trước khi áp dụng kiểu chữ của tài liệu.
@@ -152,7 +152,7 @@ Khoảng cách khuyến nghị cho câu trắc nghiệm:
 
 - Văn bản phải có nguồn ngôn ngữ tự nhiên và phù hợp trình độ.
 - Câu hỏi phải bao phủ nhiều mức: thông tin chi tiết, ý chính, từ vựng trong ngữ cảnh, tham chiếu, suy luận và mục đích/thái độ khi phù hợp.
-- Đáp án suy luận phải có bằng chứng từ văn bản, không phụ thuộc vào kiến thức ngoài bài.
+- Câu hỏi suy luận phải được thiết kế để đáp án có thể kiểm chứng bằng bằng chứng từ văn bản, không phụ thuộc vào kiến thức ngoài bài.
 - Nếu hỏi từ đồng nghĩa/trái nghĩa, nghĩa được chọn phải đúng trong ngữ cảnh cụ thể.
 
 ### 5.3. Điền khuyết
@@ -171,117 +171,35 @@ Khoảng cách khuyến nghị cho câu trắc nghiệm:
 
 ## 6. Chuẩn bắt buộc cho phần đáp án
 
-### 6.1. Mức tối thiểu cho mọi câu
+### 6.1. Nội dung tối thiểu
 
 Mỗi câu phải có:
 
 1. Số câu.
 2. Đáp án đúng hoặc câu trả lời mẫu.
-3. Một lời giải ngắn nêu căn cứ chọn đáp án.
 
-Không được chỉ cung cấp một bảng chữ cái đáp án mà không có giải thích trong các đề luyện tập chính thức.
+Phần đáp án chỉ ghi đáp án/câu trả lời mẫu; không ghi `Giải thích:`, bằng chứng, suy luận, bản dịch, phân tích phương án nhiễu hoặc lời giải bổ sung.
 
-Đáp án và lời giải không được dồn vào cùng một dòng dài. Mỗi câu phải được trình bày thành một khối dễ đọc:
+Với câu trả lời mở, phải có bài viết mẫu hoàn chỉnh và có thể ghi thêm tiêu chí chấm hoặc nguyên tắc chấp nhận phương án khác nếu đề yêu cầu.
 
-- Dòng thứ nhất ghi số câu và đáp án đúng.
-- Dòng tiếp theo bắt đầu bằng `Giải thích:` và nêu căn cứ lựa chọn.
-- Nếu lời giải có nhiều ý, mỗi ý phải được tách thành đoạn hoặc gạch đầu dòng riêng.
-- Giữa hai câu trả lời phải có khoảng cách đoạn nhất quán.
+### 6.2. Cách ghi theo dạng bài
 
-Mẫu:
+- Câu trắc nghiệm: ghi số câu, chữ cái đáp án và nội dung đáp án khi cần, ví dụ `Câu 1: B. walks`.
+- Câu điền khuyết: ghi trực tiếp từ/cụm từ cần điền, ví dụ `Câu 2: at`.
+- Câu sắp xếp: ghi đầy đủ câu hoặc thứ tự đúng, không chỉ ghi chữ cái phương án.
+- Câu dịch, sửa lỗi và tự luận: ghi câu trả lời mẫu hoàn chỉnh.
+- Nếu có nhiều cách trả lời đúng, ghi `Câu trả lời tham khảo` và nêu nguyên tắc chấp nhận phương án khác, không kèm lời giải.
 
-```text
-Câu 1: B. walks
+### 6.3. Trình bày phần đáp án
 
-Giải thích: Chủ ngữ “She” ở ngôi thứ ba số ít và câu diễn tả thói quen ở hiện tại đơn, vì vậy động từ “walk” phải thêm “-s”.
-```
-
-### 6.2. Câu dễ
-
-Lời giải có thể ngắn nhưng phải chỉ ra quy tắc, từ khóa hoặc bằng chứng trực tiếp. Không dùng lời giải chung chung như “B đúng ngữ pháp” hoặc “D phù hợp nhất”.
-
-### 6.3. Câu khó hoặc dễ nhầm
-
-Phải giải thích đầy đủ:
-
-- Kiến thức/quy tắc được kiểm tra.
-- Từ khóa, dấu hiệu hoặc câu chứa bằng chứng.
-- Quá trình suy luận để đi đến đáp án.
-- Lý do đáp án đúng phù hợp.
-- Lý do từng phương án nhiễu sai khi các phương án gần nghĩa hoặc dễ gây nhầm.
-- Bản dịch nghĩa tự nhiên nếu việc dịch giúp làm rõ cấu trúc hoặc lập luận.
-
-Mẫu:
-
-```text
-Câu 28: C. ...
-
-Giải thích: Đoạn 2 cho biết ... Từ “however” báo hiệu sự tương phản giữa ... Vì vậy có thể suy ra ...
-
-- A sai vì ...
-- B sai vì ...
-- C đúng vì ...
-- D sai vì ...
-```
-
-### 6.4. Câu đọc hiểu
-
-- Trích hoặc diễn giải chính xác câu/đoạn chứa bằng chứng.
-- Nêu vị trí bằng chứng, ví dụ `đoạn 2` hoặc `câu cuối đoạn 3`.
-- Với câu suy luận, mô tả bước nối từ bằng chứng đến kết luận.
-- Không giải thích bằng thông tin không xuất hiện trong văn bản.
-
-### 6.5. Câu sắp xếp
-
-- Ghi đầy đủ thứ tự đúng, không chỉ ghi chữ cái phương án.
-- Giải thích mạch liên kết: câu mở đầu, đại từ tham chiếu, từ nối, quan hệ thời gian/nguyên nhân–kết quả và câu kết.
-
-### 6.6. Câu phát âm/trọng âm
-
-- Ghi phiên âm hoặc phần âm/trọng âm liên quan khi cần.
-- Chỉ rõ điểm khác biệt giữa đáp án và các từ còn lại.
-
-### 6.7. Câu ngữ pháp/từ vựng
-
-- Nêu tên cấu trúc hoặc quy tắc.
-- Giải thích vai trò của từ trong câu và nghĩa trong ngữ cảnh.
-- Nếu có cụm từ cố định, ghi đầy đủ cụm từ và nghĩa.
-
-### 6.8. Trình bày phần đáp án và giải thích
-
-- Mỗi câu trả lời bắt đầu ở một đoạn mới.
-- Dòng `Câu ...: Đáp án ...` phải tách riêng khỏi phần giải thích.
-- Không trình bày theo kiểu `Câu 1: B — Giải thích...` trên cùng một dòng dài.
-- Từ `Giải thích:` phải nằm ở đầu một dòng/đoạn riêng.
-- Lời giải ngắn có thể gồm một đoạn; lời giải dài phải chia thành nhiều đoạn theo từng bước lập luận.
-- Với câu đọc hiểu, nên trình bày theo thứ tự: `Bằng chứng:` → `Suy luận:` → `Kết luận:` khi câu hỏi yêu cầu suy luận.
-- Với câu khó hoặc phương án gần nghĩa, phần loại trừ phải xuống dòng riêng cho từng lựa chọn:
-
-```text
-Câu 35: Đáp án C
-
-Giải thích:
-
-Bằng chứng: Đoạn 2 cho biết ...
-
-Suy luận: Chi tiết này cho thấy ...
-
-- A sai vì ...
-- B sai vì ...
-- C đúng vì ...
-- D sai vì ...
-```
-
+- Tiêu đề phần đáp án là `ĐÁP ÁN` và nằm ở cuối tài liệu; với đề dài, bắt đầu ở trang mới.
+- Tiêu đề nhóm đáp án phải tương ứng với phần câu hỏi và nằm trên một dòng riêng, ví dụ: `PHẦN 3` hoặc `NHÓM 3. ĐỌC HIỂU`.
+- Mỗi câu trả lời bắt đầu ở một đoạn mới và chỉ ghi số câu cùng đáp án/câu trả lời mẫu.
 - Không ghép nhiều đáp án của nhiều câu vào cùng một đoạn văn.
-- Dòng đáp án cách đoạn trước từ `10 pt` đến `12 pt` và cách dòng `Giải thích:` từ `3 pt` đến `6 pt`.
-- Sau khối giải thích của một câu phải có khoảng cách từ `10 pt` đến `12 pt` trước đáp án của câu tiếp theo.
-- Các nhãn `Bằng chứng:`, `Suy luận:`, `Kết luận:`, `Dịch nghĩa:` và các dòng phân tích phương án nhiễu phải cách nhau tối thiểu `4 pt`, không được dính thành một khối chữ đặc.
-- Toàn bộ phần đáp án và giải thích phải dùng nền trắng hoặc `No Color`; không dùng highlight để đánh dấu đáp án đúng.
-- Không để một khối giải thích quá dài mà không có điểm ngắt. Khi lời giải vượt khoảng 3–4 câu văn, phải tách theo bằng chứng, quy tắc, suy luận hoặc loại trừ.
-- Bản dịch, lưu ý ngữ pháp và cụm từ cần nhớ phải đặt ở dòng riêng nếu được bổ sung.
-- Các nhãn `Giải thích:`, `Bằng chứng:`, `Suy luận:`, `Dịch nghĩa:` và `Lưu ý:` phải được dùng nhất quán trong cùng một tài liệu.
-- Tiêu đề nhóm đáp án phải tương ứng với phần câu hỏi và nằm trên một dòng riêng, ví dụ: `NHÓM 3. ĐỌC HIỂU (Câu 21–28)`.
-- Không để tiêu đề nhóm ở cuối trang trong khi lời giải đầu tiên bị chuyển hoàn toàn sang trang sau nếu có thể tránh được.
+- Giữa các dòng đáp án dùng khoảng cách đoạn nhất quán, đủ để phân biệt từng câu nhưng không tạo vùng trắng lớn; ưu tiên `Space After` từ `6 pt` đến `10 pt`.
+- Các bài mẫu, tiêu chí chấm và ghi chú chấp nhận phương án khác phải nằm ở các đoạn riêng sau nhãn tương ứng.
+- Toàn bộ phần đáp án dùng nền trắng hoặc `No Color`, không dùng highlight để đánh dấu đáp án đúng.
+- Không để tiêu đề nhóm ở cuối trang trong khi dòng đáp án đầu tiên bị chuyển hoàn toàn sang trang sau nếu có thể tránh được.
 
 ## 7. Mức độ và tính phù hợp
 
@@ -299,8 +217,7 @@ Suy luận: Chi tiết này cho thấy ...
 - [ ] Mỗi câu có một đáp án xác định.
 - [ ] Không có câu trùng lặp hoặc mâu thuẫn.
 - [ ] Câu tiếng Anh đúng chính tả và ngữ pháp.
-- [ ] Đáp án thực tế khớp với lời giải.
-- [ ] Câu khó có giải thích đầy đủ và phân tích phương án nhiễu khi cần.
+- [ ] Đáp án thực tế khớp với câu hỏi và phương án đúng.
 - [ ] Câu trả lời mở có bài mẫu.
 
 ### 8.2. Kiểm tra cấu trúc
@@ -324,15 +241,13 @@ Suy luận: Chi tiết này cho thấy ...
 - [ ] `Keep with next` chỉ dùng cho các cụm ngắn; không nối liên tục toàn bộ phần câu hỏi hoặc phần đáp án.
 - [ ] Câu hỏi không bị in đậm toàn bộ; chỉ từ khóa cần thiết mới được nhấn mạnh.
 - [ ] Đáp án bắt đầu ở cuối tài liệu, ưu tiên sang trang mới với đề dài.
-- [ ] Mỗi đáp án và phần `Giải thích:` được tách thành các dòng/đoạn riêng.
-- [ ] Lời giải dài đã được chia theo bằng chứng, suy luận và loại trừ; không còn khối chữ dày khó đọc.
-- [ ] Mỗi phương án nhiễu cần phân tích được đặt trên một dòng riêng.
-- [ ] Khoảng cách giữa các khối lời giải nhất quán.
-- [ ] Mỗi khối đáp án–giải thích có khoảng cách tối thiểu theo Mục 6.8 và dễ phân biệt bằng mắt.
-- [ ] Không còn màu nền hoặc highlight trong nội dung, câu hỏi, lựa chọn, đoạn đọc, đáp án và lời giải.
+- [ ] Mỗi đáp án bắt đầu ở một dòng/đoạn riêng; không có dòng `Giải thích:` hoặc nội dung giải thích trong phần đáp án.
+- [ ] Các bài mẫu, tiêu chí chấm và ghi chú chấp nhận phương án khác được tách thành các đoạn riêng khi có yêu cầu.
+- [ ] Khoảng cách giữa các dòng đáp án nhất quán và đủ để phân biệt từng câu.
+- [ ] Không còn màu nền hoặc highlight trong nội dung, câu hỏi, lựa chọn, đoạn đọc và đáp án.
 - [ ] Thuộc tính nền của nội dung là trắng/`No Color`; `Text Highlight Color` là `No Color`.
 - [ ] Toàn bộ chữ nội dung hiển thị màu đen; không còn màu xanh hoặc màu theme kế thừa ngoài ý muốn.
-- [ ] Đã kiểm tra màu chữ ở cả cấp ký tự, đoạn, `Style` và `Theme`; câu hỏi, lựa chọn, đáp án và lời giải đều là `#000000` hoặc `Automatic` màu đen.
+- [ ] Đã kiểm tra màu chữ ở cả cấp ký tự, đoạn, `Style` và `Theme`; câu hỏi, lựa chọn và đáp án đều là `#000000` hoặc `Automatic` màu đen.
 - [ ] Không có ký tự lỗi, dòng trống thừa hoặc tiêu đề nằm sai vị trí.
 - [ ] Tệp mở được bình thường và không hỏng định dạng.
 
@@ -341,11 +256,11 @@ Suy luận: Chi tiết này cho thấy ...
 1. Đọc toàn bộ đề và đáp án hiện tại.
 2. Xác định dạng bài, phạm vi kiến thức và trình độ mục tiêu.
 3. Sửa nội dung được yêu cầu.
-4. Cập nhật đồng thời số câu, tiêu đề phần, lựa chọn, đáp án và lời giải liên quan.
+4. Cập nhật đồng thời số câu, tiêu đề phần, lựa chọn và đáp án liên quan.
 5. Định dạng lại đoạn bị ảnh hưởng theo quy tắc xuống dòng.
 6. Chạy lại toàn bộ danh sách kiểm tra ở Mục 8.
 7. Bảo đảm lần sửa không làm thay đổi ngoài ý muốn các phần khác của tài liệu.
 
 ## 10. Quy ước ưu tiên
 
-Khi yêu cầu riêng của một bài khác với tài liệu này, thực hiện yêu cầu riêng về nội dung nhưng vẫn giữ các chuẩn bắt buộc về tính dễ đọc, xuống dòng, tính đầy đủ của đáp án và độ chính xác của lời giải. Nếu yêu cầu riêng làm phát sinh mâu thuẫn hoặc khiến câu hỏi có nhiều đáp án đúng, phải điều chỉnh câu hỏi hoặc nêu rõ vấn đề trước khi hoàn tất.
+Khi yêu cầu riêng của một bài khác với tài liệu này, thực hiện yêu cầu riêng về nội dung nhưng vẫn giữ các chuẩn bắt buộc về tính dễ đọc, xuống dòng, tính đầy đủ và độ chính xác của đáp án. Nếu yêu cầu riêng làm phát sinh mâu thuẫn hoặc khiến câu hỏi có nhiều đáp án đúng, phải điều chỉnh câu hỏi hoặc nêu rõ vấn đề trước khi hoàn tất.
