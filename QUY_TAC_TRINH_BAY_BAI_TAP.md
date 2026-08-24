@@ -89,9 +89,12 @@ Không đặt đáp án, gợi ý làm bài hoặc thông tin làm lộ đáp á
 
 - Chỉ dùng thuộc tính `Keep with next` cho một cụm ngắn cần đi cùng nhau: tiêu đề chính với dòng phụ đề, tiêu đề phần với câu hướng dẫn, hoặc câu hỏi với chính các lựa chọn A–D của câu đó.
 - Không áp dụng `Keep with next` liên tục cho toàn bộ các câu, toàn bộ lựa chọn, cả một phần bài hoặc cả phần đáp án. Chuỗi này có thể làm Word đẩy `PHẦN 1` sang trang sau và tạo một vùng trắng lớn giữa phần giới thiệu đề và câu hỏi đầu tiên.
+- Không được để chuỗi `Keep with next` kéo dài quá cụm tiêu đề phần – hướng dẫn – câu hỏi đầu tiên. Đoạn cuối của cụm phải đặt `Keep with next = Off` để Word có điểm ngắt trang tự nhiên.
+- Với tài liệu cũ có câu hỏi và các lựa chọn nằm chung trong một đoạn, đoạn câu hỏi đó bắt buộc đặt `Keep with next = Off`; không được liên kết đoạn này với câu hỏi kế tiếp.
 - Lựa chọn cuối cùng của một câu, thường là `D.`, không đặt `Keep with next`; câu hỏi tiếp theo phải bắt đầu theo khoảng cách đoạn đã quy định, không bị nối thành cùng một chuỗi.
 - Không chèn ngắt trang thủ công, `Page break before` hoặc giữ lại dấu `lastRenderedPageBreak` ngay trước `PHẦN 1` nếu phần giới thiệu và tiêu đề phần vẫn còn đủ chỗ trên cùng trang. `PHẦN 1` phải nằm ngay sau phần hướng dẫn chung với khoảng cách theo Mục 4.1.1.
 - Nếu nội dung thực sự không còn đủ chỗ, chỉ chấp nhận ngắt trang tự nhiên hoặc ngắt trang có chủ đích đã được kiểm tra trực quan; không để ngắt trang do chuỗi `Keep with next` gây ra.
+- Sau khi lưu phải cập nhật phân trang và kiểm tra số trang thực tế: nếu dòng `Họ và tên` ở trang 1 nhưng `PHẦN 1` bị chuyển sang trang 2 trong khi cuối trang 1 còn vùng trắng lớn, tài liệu không đạt và phải kiểm tra lại `Keep with next` từ `PHẦN 1` đến các câu tiếp theo.
 
 ### 4.2. Câu hỏi và lựa chọn
 
@@ -285,6 +288,8 @@ Mục này chỉ áp dụng cho tài liệu trong `exercises\Bộ đề ôn thi 
 - [ ] `PHẦN 1` nằm sát hợp lý với hướng dẫn chung; khoảng cách trước không vượt `4 pt` và không có đoạn trống/ngắt trang ở giữa.
 - [ ] `PHẦN 1` không bị đẩy sang trang sau bởi `Keep with next`, `Page break before` hoặc dấu ngắt trang cũ khi phần giới thiệu vẫn còn đủ chỗ.
 - [ ] `Keep with next` chỉ dùng cho các cụm ngắn; không nối liên tục toàn bộ phần câu hỏi hoặc phần đáp án.
+- [ ] Đã cập nhật phân trang sau khi lưu; dòng `Họ và tên` và `PHẦN 1` không bị tách sang hai trang do chuỗi `Keep with next` khi trang đầu vẫn còn đủ chỗ.
+- [ ] Với câu hỏi có lựa chọn nằm chung một đoạn trong tài liệu cũ, `Keep with next` của đoạn câu hỏi đã được tắt.
 - [ ] Câu hỏi không bị in đậm toàn bộ; chỉ từ khóa cần thiết mới được nhấn mạnh.
 - [ ] Đáp án bắt đầu ở cuối tài liệu, ưu tiên sang trang mới với đề dài.
 - [ ] Đã xác định đúng nhóm đáp án dựa trên đường dẫn tệp theo Mục 6.0.
