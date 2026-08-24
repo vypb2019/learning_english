@@ -169,6 +169,16 @@ Khoảng cách khuyến nghị cho câu trắc nghiệm:
 - Kèm dàn ý hoặc các ý chính và thang/tiêu chí chấm khi bài yêu cầu sản phẩm dài.
 - Nếu có nhiều cách trả lời đúng, ghi rõ `Câu trả lời tham khảo` và nêu nguyên tắc chấp nhận phương án khác.
 
+### 5.5. Tính khác biệt giữa các đề trong cùng một bộ
+
+- Các đề trong cùng một thư mục phải là những phiên bản độc lập, không chỉ khác số đề, tên nhân vật, địa điểm, ngày tháng hoặc một vài từ trong ngữ cảnh.
+- Có thể dùng chung cấu trúc phần, dạng bài, hướng dẫn và tiêu chí chấm; không được dùng chung nguyên văn câu hỏi, đoạn đọc, hội thoại, email, tờ rơi, phương án nhiễu hoặc thứ tự đáp án.
+- Khi tạo đề biến thể, tối thiểu `70%` đơn vị câu hỏi của mỗi cặp đề phải khác nhau. Một đơn vị câu hỏi gồm câu dẫn, đoạn văn/hội thoại liên quan, các lựa chọn và yêu cầu trả lời.
+- Không để quá `2/10` phần của hai đề có nội dung câu hỏi giống hoàn toàn. Những phần bắt buộc dùng chung mẫu phải được thay đổi câu hỏi, dữ liệu, ngữ cảnh và phương án nhiễu.
+- Việc chỉ đổi tên riêng, con số, chủ đề bề mặt hoặc đảo vị trí lựa chọn không được tính là tạo nội dung mới nếu căn cứ làm bài và đáp án vẫn giữ nguyên.
+- Với phần đọc hiểu và viết, mỗi đề phải có văn bản/ngữ cảnh và yêu cầu riêng; không dùng lại cùng một đoạn đọc rồi chỉ thay tên chủ đề.
+- Trước khi lưu, phải so sánh chéo toàn bộ các đề trong cùng thư mục sau khi đã bỏ tiêu đề, thông tin điểm/thời gian, hướng dẫn chung và khoảng trắng. Nếu vượt ngưỡng trùng nêu trên, phải biên soạn lại trước khi hoàn tất.
+
 ## 6. Chuẩn bắt buộc cho phần đáp án
 
 ### 6.1. Nội dung tối thiểu
@@ -219,6 +229,8 @@ Với câu trả lời mở, phải có bài viết mẫu hoàn chỉnh và có 
 - [ ] Câu tiếng Anh đúng chính tả và ngữ pháp.
 - [ ] Đáp án thực tế khớp với câu hỏi và phương án đúng.
 - [ ] Câu trả lời mở có bài mẫu.
+- [ ] Các đề trong cùng một bộ đã được so sánh chéo; không có cặp đề vượt ngưỡng trùng nội dung ở Mục 5.5.
+- [ ] Những phần khác nhau giữa các đề là khác về câu hỏi, ngữ cảnh và phương án nhiễu, không chỉ khác tên, số liệu hoặc thứ tự đáp án.
 
 ### 8.2. Kiểm tra cấu trúc
 
@@ -259,7 +271,8 @@ Với câu trả lời mở, phải có bài viết mẫu hoàn chỉnh và có 
 4. Cập nhật đồng thời số câu, tiêu đề phần, lựa chọn và đáp án liên quan.
 5. Định dạng lại đoạn bị ảnh hưởng theo quy tắc xuống dòng.
 6. Chạy lại toàn bộ danh sách kiểm tra ở Mục 8.
-7. Bảo đảm lần sửa không làm thay đổi ngoài ý muốn các phần khác của tài liệu.
+7. So sánh chéo các đề cùng bộ theo Mục 5.5; nếu phát hiện trùng vượt ngưỡng, phải sửa nội dung trước khi lưu.
+8. Bảo đảm lần sửa không làm thay đổi ngoài ý muốn các phần khác của tài liệu.
 
 ## 10. Quy ước ưu tiên
 
