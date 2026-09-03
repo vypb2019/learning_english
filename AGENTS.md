@@ -13,3 +13,11 @@ Các yêu cầu cốt lõi không được bỏ qua:
 - Lời giải dài phải chia đoạn theo bằng chứng, suy luận và kết luận; mỗi phương án nhiễu cần phân tích phải nằm trên một dòng riêng.
 - Câu trả lời mở phải có bài viết hoặc câu trả lời mẫu.
 - Trước khi hoàn tất phải thực hiện danh sách kiểm tra nội dung, cấu trúc và trình bày trong tài liệu quy chuẩn.
+
+## Bộ công cụ xử lý Word
+
+- Khi tạo, sửa, đọc hoặc kiểm tra tệp DOCX trong workspace này, bắt buộc dùng Python của project tại `.venv-word-tools/bin/python`; không dùng Python hệ thống nếu virtualenv này tồn tại.
+- Bộ thư viện chuẩn đã cài trong `.venv-word-tools`: `python-docx==1.2.0`, `lxml==6.1.3`, `typing_extensions==4.16.0`.
+- Nếu cần dùng `pip`, phải gọi qua `.venv-word-tools/bin/python -m pip`.
+- Tệp kiểm tra, bản sao tạm và sản phẩm trung gian phải đặt trong thư mục tạm ngoài workspace, trừ khi người dùng yêu cầu lưu lại.
+- Sau khi ghi DOCX, phải kiểm tra ZIP, XML/RELS và khả năng mở bằng LibreOffice headless trước khi bàn giao.

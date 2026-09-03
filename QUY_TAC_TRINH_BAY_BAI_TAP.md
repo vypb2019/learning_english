@@ -17,6 +17,14 @@ Quy ước riêng về lời giải:
 
 Khi một đề cũ được chỉnh sửa, phải kiểm tra lại toàn bộ đề và phần đáp án theo quy tắc này, không chỉ kiểm tra riêng đoạn vừa sửa.
 
+## 1.1. Bộ công cụ xử lý Word
+
+- Khi tạo, sửa, đọc hoặc kiểm tra DOCX bằng Python, bắt buộc dùng `.venv-word-tools/bin/python` của project.
+- Bộ thư viện chuẩn trong môi trường này là `python-docx==1.2.0`, `lxml==6.1.3`, `typing_extensions==4.16.0`; nếu cần cài hoặc kiểm tra package, dùng `.venv-word-tools/bin/python -m pip`.
+- Không dùng Python hệ thống để ghi DOCX khi `.venv-word-tools` tồn tại, nhằm tránh khác phiên bản thư viện giữa các project.
+- Tệp kiểm tra, bản sao tạm, bản convert PDF và sản phẩm trung gian phải đặt trong thư mục tạm ngoài workspace, trừ khi người dùng yêu cầu lưu lại.
+- Sau khi ghi DOCX, phải kiểm tra `unzip -t`, phân tích mọi XML/RELS bằng `lxml`, kiểm tra quan hệ gói và thử mở bằng LibreOffice headless trước khi bàn giao.
+
 ## 2. Nguyên tắc chung
 
 1. Nội dung phải đúng với kiến thức người học đã được học tại thời điểm làm bài.
@@ -301,6 +309,10 @@ Mục này chỉ áp dụng cho tài liệu trong `exercises\Bộ đề ôn thi 
 - [ ] Thuộc tính nền của nội dung là trắng/`No Color`; `Text Highlight Color` là `No Color`.
 - [ ] Toàn bộ chữ nội dung hiển thị màu đen; không còn màu xanh hoặc màu theme kế thừa ngoài ý muốn.
 - [ ] Đã kiểm tra màu chữ ở cả cấp ký tự, đoạn, `Style` và `Theme`; câu hỏi, lựa chọn và đáp án đều là `#000000` hoặc `Automatic` màu đen.
+- [ ] Nếu có tạo/sửa DOCX bằng Python, đã dùng `.venv-word-tools/bin/python` của project.
+- [ ] `unzip -t` không báo lỗi; mọi XML/RELS trong gói DOCX phân tích được bằng `lxml`.
+- [ ] Các quan hệ trong `.rels`, `[Content_Types].xml`, liên kết ảnh và tài nguyên nhúng còn hợp lệ.
+- [ ] LibreOffice headless mở/convert được bản DOCX kiểm tra từ thư mục tạm ngoài workspace.
 - [ ] Không có ký tự lỗi, dòng trống thừa hoặc tiêu đề nằm sai vị trí.
 - [ ] Tệp mở được bình thường và không hỏng định dạng.
 
